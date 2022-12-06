@@ -11,7 +11,7 @@ function Navbar() {
       <nav className="nav">
         <div className="container">
           <div className="nav-row">
-            <NavLink to="/" className="logo">
+            <NavLink to="/myportfolio" className="logo">
               <strong>Freelancer</strong> portfolio
             </NavLink>
 
@@ -20,7 +20,7 @@ function Navbar() {
             <ul className="nav-list">
               <li className="nav-list__item">
                 <NavLink
-                  to="/"
+                  to="/myportfolio"
                   className={({ isActive }) =>
                     isActive ? activeLink : normalLink
                   }
@@ -30,7 +30,7 @@ function Navbar() {
               </li>
               <li className="nav-list__item">
                 <NavLink
-                  to="/projects"
+                  to="/myportfolio/projects"
                   className={({ isActive }) =>
                     isActive ? activeLink : normalLink
                   }
@@ -40,7 +40,7 @@ function Navbar() {
               </li>
               <li className="nav-list__item">
                 <NavLink
-                  to="/contacts"
+                  to="/myportfolio/contacts"
                   className={({ isActive }) =>
                     isActive ? activeLink : normalLink
                   }
