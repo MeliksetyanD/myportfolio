@@ -14,6 +14,7 @@ function Projects() {
 								img={project.img}
 								title={project.title}
 								index={index}
+								link={project.gitHubLink}
 							/>
 						))}
 					</ul>

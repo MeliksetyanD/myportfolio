@@ -15,7 +15,7 @@ function Project() {
 				<div className='container'>
 					<div className='project-details'>
 						<h1 className='title-1'>{project.title}</h1>
-						<a href='https://meliksetyand.github.io/moah/' target='_blank'>
+						<a href={project.gitHubLink} target='_blank'>
 							<img
 								src={project.imgBig}
 								alt={project.title}
